@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#background{
+    background: linear-gradient(rgba(0,0,0,0.5), #00641e),url(images/left4dead2_banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-text{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+
+.banner-text h1{
+    font-size: 130px;
+}
+
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+#navbar{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #00641e;
+    z-index: 2;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;   
+}
