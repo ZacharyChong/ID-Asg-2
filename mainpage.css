@@ -4,7 +4,7 @@
 }
 
 #background{
-    background: linear-gradient(rgba(0,0,0,0.5), #00641e),url(images/left4dead2_banner.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.5), #00641e),url(images/left4dead2_banner.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -43,4 +43,22 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;   
+}
+
+#menuButton{
+    width: 50px;
+    height: 50px;
+    background: #00641e;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#menuButton img{
+    width: 50px;
+    margin-top: 0px;
 }

@@ -25,5 +25,22 @@
                 </ul>
             </nav>
         </div>
+        <div id="menuButton">
+            <img src="images/menulogo.png" id="menu">
+        </div>
+        <script>
+            var menuButton = document.getElementById("menuButton")
+            var navbar = document.getElementById("navbar")
+            var menu = document.getElementById("menu")
+
+            menuButton.onclick=function(){
+                if(navbar.style.right == "-250px"){
+                    navbar.style.right = "0";
+                }
+                else{
+                    navbar.style.right = "-250px"
+                }
+            }
+        </script>
     </body>
 </html>
