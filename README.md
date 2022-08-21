@@ -1,6 +1,6 @@
 # ID-Asg-2
 
-Github link: https://github.com/ZacharyChong/ID-Asg-2
+Github link: https://zacharychong.github.io/ID-Asg-2/
 L4D2 tracker
 Overview
 This application is a game tracker that tracks players' statistics for a game called Left for Dead 2. One can use this application to check stats such as their total zombies killed, total number of hours played, and amount of achievements completed.They can also participate in a lucky draw in the application to win limited edition skins by simply filling in their name and contact details. When there are problems in the application, one can navigate to the 'Contact help and support' page and contact the help and support person to resolve any issues in the application. Our application essentially supports the LFD2 game and is targeted at the playerbase of this game. 
